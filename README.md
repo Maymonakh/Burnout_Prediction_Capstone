@@ -285,7 +285,7 @@ Based on the Random Forest feature importance analysis, the most influential fac
 
 ```bash
 # 1. Clone this repository
-git clone https://github.com/your-username/burnout-prediction.git
+git clone https://github.com/Maymonakh/Burnout_Prediction_Capstone.git
 cd burnout-prediction
 
 # 2. Install required packages
