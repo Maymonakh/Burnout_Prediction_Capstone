@@ -275,7 +275,7 @@ Based on the Random Forest feature importance analysis, the most influential fac
 
 ### 📌 Option A — Google Colab (Recommended)
 
-1. Open the **Data Cleaning Notebook**
+1. Open the **Google Colab Notebook Link**
 2. Upload `wfh_burnout_dataset.csv` when prompted by the first cell
 3. Run all cells from top to bottom to reproduce the results
 
@@ -303,3 +303,18 @@ Install the required dependencies using:
 
 ```bash
 pip install -r requirements.txt
+```
+
+## ⚠️ Limitations
+
+- The dataset is synthetically generated, so real-world performance may differ.
+- The `burnout_score` feature was excluded due to data leakage; without it, the prediction task becomes more challenging but more realistic.
+- The model does not account for psychological, personal, or external life factors that may influence burnout.
+
+---
+
+## 🚀 Possible Next Steps
+
+- Perform hyperparameter tuning using GridSearchCV or RandomizedSearchCV.
+- Experiment with advanced models such as XGBoost or Support Vector Machines (SVM).
+- Validate the model using real-world employee data.
